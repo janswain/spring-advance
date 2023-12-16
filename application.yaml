@@ -1,0 +1,15 @@
+greeting:
+  hello: Hello Workld from message.
+app:
+  name: 'greeting examples....'
+  description: 'Welcome to '
+  multiple: test,greetings,test1
+
+db:
+  connection: '{connectionString:"http----",userName:"foo",password:"pass"}'
+  host: 127.0.0.1
+  port: 9089
+
+management.endpoints.web.exposure.include: "*"
+# Activate test profile
+spring.profiles.active: test
